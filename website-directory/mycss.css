@@ -5,14 +5,12 @@
     box-sizing: border-box;
 }
 
-.main{
+body {
     position: relative;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     background:#efab35		
-
 }
-
 .logo{
     width: 10%;
     height: auto;
@@ -38,10 +36,6 @@ nav ul li a{
     font-size: 20px;
     color: #000;
     font-weight: bold;
-}
-
-nav ul li a : hover{
-    color: blue;
 }
 
 .details{
@@ -76,16 +70,17 @@ iframe {
     margin-bottom: 1em;
 }
 
-.portrait {
+#portrait {
     display: flex;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1em;
     width: 20%;
+    border: 5px solid #555;
 }
 
 figcaption {
-    margin: 2em;
+    margin: 1em;
     font-weight: bold;
     font-size: large;
 }
